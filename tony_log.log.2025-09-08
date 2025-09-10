@@ -1,0 +1,74 @@
+[2025-09-08 20:21:59,027] INFO: ✅ Token_TonyV10 'The Final Blueprint' is starting up...
+[2025-09-08 20:22:01,767] INFO: 🗄️ Database ready.
+[2025-09-08 20:22:01,798] INFO: 🗒️ Loaded 115 advanced quips.
+[2025-09-08 20:22:01,798] INFO: ✅ Blueprint Engine: Firing up background workers...
+[2025-09-08 20:22:01,819] INFO: PumpPortal: Connecting...
+[2025-09-08 20:22:01,876] INFO: Logs Firehose: launching 1 providers...
+[2025-09-08 20:22:01,876] INFO: 🦎 Aggregator Poller: Worker starting.
+[2025-09-08 20:22:03,047] INFO: 🧐 Second Chance Protocol: Engaging the scrap heap scanner.
+[2025-09-08 20:22:03,047] INFO: 🚀 Blueprint Engine: Adaptive intake worker is online.
+[2025-09-08 20:22:03,047] INFO: 🤖 Re-Analyzer Engine: Firing up the refresh cycle.
+[2025-09-08 20:22:03,047] INFO: 🧹 Maintenance Protocol: Tony's cleaning crew is on the clock.
+[2025-09-08 20:22:03,047] INFO: ⚡️ Circuit Breaker Monitor: Powering up the reset sequence.
+[2025-09-08 20:22:03,052] INFO: Logs Firehose (Helius): Connecting wss://mainnet.helius-rpc.com/?api-key=c7e436d8-7e44-43ce-94cc-92bb16316476 ...
+[2025-09-08 20:22:05,642] INFO: PumpPortal: Subscribed (new tokens + migration).
+[2025-09-08 20:22:05,696] INFO: ✅ Logs Firehose (Helius): Subscribed to 3 programs.
+[2025-09-08 20:22:06,836] INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-09-08 20:22:06,837] INFO: Scheduled public_hatching every 300s for chat -1002952134178.
+[2025-09-08 20:22:06,839] INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-09-08 20:22:06,840] INFO: Scheduled public_cooking every 60s for chat -1002952134178.
+[2025-09-08 20:22:06,840] INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-09-08 20:22:06,840] INFO: Scheduled public_top every 3600s for chat -1002952134178.
+[2025-09-08 20:22:06,841] INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-09-08 20:22:06,841] INFO: Scheduled public_fresh every 60s for chat -1002952134178.
+[2025-09-08 20:22:06,855] INFO: DISCOVERED: 41w6cKmJXYKXQqqQirgt63QMMjG313F8paN9mqkdfene. Queued for initial analysis.
+[2025-09-08 20:22:07,517] INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-09-08 20:22:07,517] INFO: Scheduled vip_hatching every 120s for chat -1002714461037.
+[2025-09-08 20:22:07,518] INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-09-08 20:22:07,518] INFO: Scheduled vip_cooking every 60s for chat -1002714461037.
+[2025-09-08 20:22:07,518] INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-09-08 20:22:07,518] INFO: Scheduled vip_top every 1200s for chat -1002714461037.
+[2025-09-08 20:22:07,520] INFO: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-09-08 20:22:07,520] INFO: Scheduled vip_fresh every 60s for chat -1002714461037.
+[2025-09-08 20:22:07,528] INFO: DISCOVERED: FiJ5tKdmcQKTkngxJsCBMqnXsW6gTKmUxp7mb7nrW1DX. Queued for initial analysis.
+[2025-09-08 20:22:07,668] INFO: Added job "public_hatching" to job store "default"
+[2025-09-08 20:22:07,669] INFO: Added job "public_cooking" to job store "default"
+[2025-09-08 20:22:07,669] INFO: Added job "public_top" to job store "default"
+[2025-09-08 20:22:07,669] INFO: Added job "public_fresh" to job store "default"
+[2025-09-08 20:22:07,671] INFO: Added job "vip_hatching" to job store "default"
+[2025-09-08 20:22:07,671] INFO: Added job "vip_cooking" to job store "default"
+[2025-09-08 20:22:07,671] INFO: Added job "vip_top" to job store "default"
+[2025-09-08 20:22:07,671] INFO: Added job "vip_fresh" to job store "default"
+[2025-09-08 20:22:07,671] INFO: Scheduler started
+[2025-09-08 20:22:10,586] INFO: 🤖 Re-Analyzer: Starting cycle for 60 tokens...
+[2025-09-08 20:22:11,736] INFO: 🦎 Aggregator Poller: GeckoTerminal new returned no new tokens this cycle.
+[2025-09-08 20:22:11,738] INFO: 🦎 Aggregator Poller: GeckoTerminal search pools returned no new tokens this cycle.
+[2025-09-08 20:22:11,738] INFO: 🦎 Aggregator Poller: GeckoTerminal search tokens returned no new tokens this cycle.
+[2025-09-08 20:22:11,738] INFO: 🦎 Aggregator Poller: DexScreener /new returned no new tokens this cycle.
+[2025-09-08 20:22:11,738] INFO: 🦎 Aggregator Poller: DexScreener search filtered returned no new tokens this cycle.
+[2025-09-08 20:22:11,928] INFO: Running job "public_top (trigger: interval[1:00:00], next run at: 2025-09-09 02:22:11 UTC)" (scheduled at 2025-09-09 01:22:11.915897+00:00)
+[2025-09-08 20:22:12,219] INFO: Running job "public_fresh (trigger: interval[0:01:00], next run at: 2025-09-09 01:23:12 UTC)" (scheduled at 2025-09-09 01:22:12.205088+00:00)
+[2025-09-08 20:22:14,023] INFO: Running job "vip_cooking (trigger: interval[0:01:00], next run at: 2025-09-09 01:23:14 UTC)" (scheduled at 2025-09-09 01:22:14.000076+00:00)
+[2025-09-08 20:22:14,554] INFO: Running job "public_cooking (trigger: interval[0:01:00], next run at: 2025-09-09 01:23:14 UTC)" (scheduled at 2025-09-09 01:22:14.548230+00:00)
+[2025-09-08 20:22:14,766] INFO: Running job "public_hatching (trigger: interval[0:05:00], next run at: 2025-09-09 01:27:14 UTC)" (scheduled at 2025-09-09 01:22:14.758129+00:00)
+[2025-09-08 20:22:15,823] INFO: Running job "vip_fresh (trigger: interval[0:01:00], next run at: 2025-09-09 01:23:15 UTC)" (scheduled at 2025-09-09 01:22:15.808301+00:00)
+[2025-09-08 20:22:16,339] INFO: Running job "vip_top (trigger: interval[0:20:00], next run at: 2025-09-09 01:42:16 UTC)" (scheduled at 2025-09-09 01:22:16.327637+00:00)
+[2025-09-08 20:22:16,426] INFO: Running job "vip_hatching (trigger: interval[0:02:00], next run at: 2025-09-09 01:24:16 UTC)" (scheduled at 2025-09-09 01:22:16.418301+00:00)
+[2025-09-08 20:22:17,809] INFO: DISCOVERED: GjsY4MkGyHRVAuyXmrwtf6bGpt6xFBJuidii1BU8pump. Queued for initial analysis.
+[2025-09-08 20:22:24,674] INFO: Enhanced Processor: Found 5 new tokens. Processing batch...
+[2025-09-08 20:22:24,676] INFO: 🧐 Initial Analyzer: Processing BNj9c6HuWn5qUk3TSJgQqtrXATMQswPKSQuoKdVppump. Waiting for APIs to index...
+[2025-09-08 20:22:24,676] INFO: 🧐 Initial Analyzer: Processing 3h6VP5Xt3AkpWmjPZeErEt233MiMizKWC3nzQYCJpump. Waiting for APIs to index...
+[2025-09-08 20:22:24,679] INFO: 🧐 Initial Analyzer: Processing 4J5KHtbnCrjhyq3rra1Lubdtu1s4rEt7Buw9FZiCpump. Waiting for APIs to index...
+[2025-09-08 20:22:24,680] INFO: 🧐 Initial Analyzer: Processing Fu5TUcQPsgdD1fi2wqc7PMDC1RS953SKuRE4S8S3jkBg. Waiting for APIs to index...
+[2025-09-08 20:22:24,681] INFO: 🧐 Initial Analyzer: Processing G7c95hcGYmxcCb4AKsxwKCHf23SKnSZjcYhpSmbopump. Waiting for APIs to index...
+[2025-09-08 20:22:24,714] INFO: DISCOVERED: EKk24CNdxbSns2S3mvzB9CkiMomE3pybLpt1fCcPUa5g. Queued for initial analysis.
+[2025-09-08 20:22:24,715] INFO: DISCOVERED: Gww4sPRxJK8HaaVg1TvXerCd5LzZ6UxFNhRiTNoJKNgu. Queued for initial analysis.
+[2025-09-08 20:22:24,719] INFO: DISCOVERED: D4FRHm4G6qwtpkzkxswukm5R9U5NKLohXvXupu2eCMCT. Queued for initial analysis.
+[2025-09-08 20:22:24,723] ERROR: Scheduled push failed for segment=fresh chat=-1002952134178: 'str' object has no attribute 'append'
+[2025-09-08 20:22:24,726] INFO: Job "public_fresh (trigger: interval[0:01:00], next run at: 2025-09-09 01:23:12 UTC)" executed successfully
+[2025-09-08 20:22:26,485] ERROR: Scheduled push failed for segment=fresh chat=-1002714461037: 'str' object has no attribute 'append'
+[2025-09-08 20:22:26,485] INFO: Job "vip_fresh (trigger: interval[0:01:00], next run at: 2025-09-09 01:23:15 UTC)" executed successfully
+[2025-09-08 20:22:28,553] INFO: Job "public_hatching (trigger: interval[0:05:00], next run at: 2025-09-09 01:27:14 UTC)" executed successfully
+[2025-09-08 20:22:28,919] INFO: Job "vip_hatching (trigger: interval[0:02:00], next run at: 2025-09-09 01:24:16 UTC)" executed successfully
+[2025-09-08 20:22:33,329] INFO: DISCOVERED: 6icJEp3XAJ8iZYGUforxwP3zX6fvcE5LYmQ8FruRSnHU. Queued for initial analysis.
+[2025-09-08 20:22:36,235] INFO: DISCOVERED: FeGV6hgu75FWEAENDFquk6Co5AydqYZhWPbXVrxjkVu6. Queued for initial analysis.

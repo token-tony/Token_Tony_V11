@@ -1,0 +1,331 @@
+
+
+# Welcome to Tony's Advanced Quip File.
+# Use this to add data-driven, unique commentary.
+# - Each quip needs a unique [Header] like [MyQuip1].
+# - GRADE is required: MOONSHOT, PROMISING, RISKY, or RUG.
+# - QUIP is the text that will be shown.
+# - CONDITION is optional. It checks the token's data.
+#   - Available data points: score, sss_score, mms_score, liquidity_usd, market_cap_usd, volume_24h_usd, top10_holder_percentage, age_minutes
+#   - Use operators: > < == !=
+
+[MOONSHOT_HighLiquidity]
+GRADE: MOONSHOT
+QUIP: This thing's swimming in cash. Full send.
+CONDITION: liquidity_usd > 50000
+
+[MOONSHOT_Generic1]
+GRADE: MOONSHOT
+QUIP: The candle’s got legs. Boots on, let’s move.
+CONDITION: None
+
+[MOONSHOT_Generic2]
+GRADE: MOONSHOT
+QUIP: Tony’s already two martinis deep celebrating this one.
+CONDITION: None
+
+[MOONSHOT_Generic3]
+GRADE: MOONSHOT
+QUIP: This token just made the VIP list. Moon mode: loading…
+CONDITION: None
+
+[MOONSHOT_Generic4]
+GRADE: MOONSHOT
+QUIP: Tony’s hairline just grew back — it’s that bullish.
+CONDITION: None
+
+[MOONSHOT_Generic5]
+GRADE: MOONSHOT
+QUIP: Heard a whisper from the blockchain gods… and Tony listened.
+CONDITION: None
+
+[MOONSHOT_Generic6]
+GRADE: MOONSHOT
+QUIP: The fundamentals are fundamentalling. Tony’s impressed.
+CONDITION: None
+
+[MOONSHOT_Generic7]
+GRADE: MOONSHOT
+QUIP: Tony smells alpha and it’s not just his cologne.
+CONDITION: None
+
+[MOONSHOT_Generic8]
+GRADE: MOONSHOT
+QUIP: This one feels like a headline act — Tony’s got goosebumps.
+CONDITION: None
+
+[MOONSHOT_Generic9]
+GRADE: MOONSHOT
+QUIP: All cylinders firing. Tony hears the crowd roaring.
+CONDITION: None
+
+[MOONSHOT_Generic10]
+GRADE: MOONSHOT
+QUIP: Big presence on the charts — watch for liftoff but manage size.
+CONDITION: None
+
+[MOONSHOT_Generic11]
+GRADE: MOONSHOT
+QUIP: Solid bassline, clean chart — Tony’s feelin’ it.
+CONDITION: None
+
+[MOONSHOT_Generic12]
+GRADE: MOONSHOT
+QUIP: Tony just added this to his personal playlist.
+CONDITION: None
+
+[PROMISING_Decentralized]
+GRADE: PROMISING
+QUIP: The bag is spread out, nobody's holding all the cards. I like what I'm seeing.
+CONDITION: top10_holder_percentage < 15
+
+[PROMISING_Generic1]
+GRADE: PROMISING
+QUIP: Green shoots, not a forest… yet. Don't sleep on it.
+CONDITION: None
+
+[PROMISING_Generic2]
+GRADE: PROMISING
+QUIP: This one’s struttin’ — not quite moonin’, but she’s got style.
+CONDITION: None
+
+[PROMISING_Generic3]
+GRADE: PROMISING
+QUIP: Tony hears potential — not mainstage yet, but warming up.
+CONDITION: None
+
+[PROMISING_Generic4]
+GRADE: PROMISING
+QUIP: Early stage groove — keep it on your radar.
+CONDITION: None
+
+[PROMISING_Generic5]
+GRADE: PROMISING
+QUIP: Momentum’s building — don’t sleep, but don’t ape blind.
+CONDITION: None
+
+[PROMISING_Generic6]
+GRADE: PROMISING
+QUIP: Kinda spicy, kinda sus — but Tony sees the spark.
+CONDITION: None
+
+[PROMISING_Generic7]
+GRADE: PROMISING
+QUIP: Potential’s there — just waiting for the beat to drop.
+CONDITION: None
+
+[RISKY_Centralized]
+GRADE: RISKY
+QUIP: Looks like the dev's family owns half the supply. Watch your wallet.
+CONDITION: top10_holder_percentage > 60
+
+[RISKY_Generic1]
+GRADE: RISKY
+QUIP: Small bites, tight stops on this one.
+CONDITION: None
+
+[RISKY_Generic2]
+GRADE: RISKY
+QUIP: LP looks like it’s held together with chewing gum.
+CONDITION: None
+
+[RISKY_Generic3]
+GRADE: RISKY
+QUIP: Tony’s tapping his foot... but checking exits too.
+CONDITION: None
+
+[RISKY_Generic4]
+GRADE: RISKY
+QUIP: Chart’s got more dips than a salsa contest. Careful, cowboy.
+CONDITION: None
+
+[RISKY_Generic5]
+GRADE: RISKY
+QUIP: Thin LP and sus holders — this tune may skip. Enter with caution.
+CONDITION: None
+
+[RISKY_Generic6]
+GRADE: RISKY
+QUIP: Low volume, high concentration — Tony warns this might cut the party short.
+CONDITION: None
+
+[RISKY_Generic7]
+GRADE: RISKY
+QUIP: The beat's off; the track might rug. Consider test sizes only.
+CONDITION: None
+
+[RISKY_Generic8]
+GRADE: RISKY
+QUIP: Tony’s checking the exits. This one’s got party-crasher vibes.
+CONDITION: None
+
+[RISKY_Generic9]
+GRADE: RISKY
+QUIP: Barely any LP, top holders holding hands — sus.
+CONDITION: None
+
+[RISKY_Generic10]
+GRADE: RISKY
+QUIP: Community’s quiet... Tony’s only hearing crickets.
+CONDITION: None
+
+[RISKY_Generic11]
+GRADE: RISKY
+QUIP: Could moon... or melt. This one’s a gamble.
+CONDITION: None
+
+[RISKY_Generic12]
+GRADE: RISKY
+QUIP: Looks like someone copy-pasted a rug with extra glitter.
+CONDITION: None
+
+[RISKY_Generic13]
+GRADE: RISKY
+QUIP: Chart says party — backend says scam. Tread light.
+CONDITION: None
+
+[RUG_LowLiquidity]
+GRADE: RUG
+QUIP: This has less cash in it than my kid's piggy bank. Stay away.
+CONDITION: liquidity_usd < 1000
+
+[RUG_Generic1]
+GRADE: RUG
+QUIP: You’re not early — you’re the exit liquidity.
+CONDITION: None
+
+[RUG_Generic3]
+GRADE: RUG
+QUIP: This one’s flashing more red than a DJ booth at closing time.
+CONDITION: None
+
+[RUG_Generic4]
+GRADE: RUG
+QUIP: You’re not early — you’re the exit liquidity. Bail.
+CONDITION: None
+
+[RUG_Generic5]
+GRADE: RUG
+QUIP: Tony’s seen better setups in IKEA furniture.
+CONDITION: None
+
+[RUG_Generic6]
+GRADE: RUG
+QUIP: Scam remix 3000 — Tony’s muting this track for good.
+CONDITION: None
+
+[RUG_Generic7]
+GRADE: RUG
+QUIP: This one’s trash; Tony hears nails on a chalkboard. Stay away!
+CONDITION: None
+
+[RUG_Generic8]
+GRADE: RUG
+QUIP: Rug vibes heavy — Tony's leaving the dance floor.
+CONDITION: None
+
+[RUG_Generic9]
+GRADE: RUG
+QUIP: Tony just rage-quit this one and he wasn’t even in yet.
+CONDITION: None
+
+[RUG_Generic10]
+GRADE: RUG
+QUIP: Backed by hype and hopium, and that’s it. 🚮
+CONDITION: None
+
+[RUG_Generic11]
+GRADE: RUG
+QUIP: Rugged harder than Tony’s ex — and she stole his NFTs.
+CONDITION: None
+
+[RUG_Generic12]
+GRADE: RUG
+QUIP: LP vanished like your paycheck on mint day. RUUUUN.
+CONDITION: None
+
+# General quips are added to all categories for variety
+[GENERAL_ForAll1]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Mint closed, brain open.
+CONDITION: None
+
+[GENERAL_ForAll2]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: No LP? No entry.
+CONDITION: None
+
+[GENERAL_ForAll3]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Chart talkin’. Tony listenin’.
+CONDITION: None
+
+[GENERAL_ForAll4]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Test size, don’t baptize.
+CONDITION: None
+
+[GENERAL_ForAll5]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Tony sees rugs before they unroll.
+CONDITION: None
+
+[GENERAL_ForAll6]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Full send? Check the backend.
+CONDITION: None
+
+[GENERAL_ForAll7]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Volume high, vibes higher.
+CONDITION: None
+
+[GENERAL_ForAll8]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: This ain’t your mama’s meme coin.
+CONDITION: None
+
+[GENERAL_ForAll9]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Data > Drama.
+CONDITION: None
+
+[GENERAL_ForAll10]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Alpha first, feelings later.
+CONDITION: None
+
+[GENERAL_ForAll11]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Tony don’t chase pumps. Pumps chase Tony.
+CONDITION: None
+
+[GENERAL_ForAll12]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Buy vibes, sell signals.
+CONDITION: None
+
+[GENERAL_ForAll13]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Don’t marry the coin. Just date the chart.
+CONDITION: None
+
+[GENERAL_ForAll14]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Fresh mint, fresh risk.
+CONDITION: None
+
+[GENERAL_ForAll15]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Tony doesn’t ape. He analyzes.
+CONDITION: None
+
+[GENERAL_ForAll16]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: More red flags than a DAO election.
+CONDITION: None
+
+[GENERAL_ForAll17]
+GRADE: MOONSHOT,PROMISING,RISKY,RUG
+QUIP: Tony is speechless. Proceed with caution!
+CONDITION: None
